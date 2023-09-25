@@ -5,7 +5,10 @@
     "card_title": "Health",
     "card_description": "Clean water for children",
     "bg_color": "#F87147",
-    "text_color": "#F87147"
+    "text_color": "#F87147",
+    "Category_description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "category_price":"280"
+
   },
   {
     "id": "2",
@@ -13,7 +16,9 @@
     "card_title": "Education",
     "card_description": "Good education",
     "bg_color": "",
-    "text_color": ""
+    "text_color": "",
+    "Category_description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "category_price": "290"
   },
   {
     "id": "3",

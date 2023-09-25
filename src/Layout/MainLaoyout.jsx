@@ -5,7 +5,9 @@ const MainLaoyout = () => {
     return (
         <div className="max-w-[425px] md:max-w-[768px] lg:max-w-[1300px]   mx-auto">
            <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className="py-10">
+                <Outlet></Outlet>
+            </div>
         </div>
     );
 };
