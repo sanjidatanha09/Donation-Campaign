@@ -10,3 +10,4 @@ Now I am describe,Some of  this website project feature:
 - Ensure that the website is mobile-friendly and accessible on various devices.
 - Allow users to view their donation history
 - Ensure transparent handling of donations and clear information on how funds are allocated.
+- Display percentage of donation
