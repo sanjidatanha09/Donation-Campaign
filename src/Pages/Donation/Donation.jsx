@@ -42,7 +42,7 @@ const Donation = () => {
                     {donation.length > 0 && (
                         <div>
                             <button
-                                onClick={handleRemove} className="px-5 mb-6 bg-[#009444] mt-5 p-3 rounded-xl text-white font-bold text-xl pb-4 text-center block mx-auto">
+                                    onClick={handleRemove} className="lg:px-5 mb-6 bg-[#009444] mt-4 p-3 lg:p-3 rounded-xl text-white font-bold text-xs  md:text-base lg:text-xl lg:pb-4 text-center block mx-auto">
 
                                 Deleted All donation
 
@@ -53,7 +53,7 @@ const Donation = () => {
 
 
 
-                    <div className="grid grid-cols-2 gap-5">
+                        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 ">
                         {
 
 
@@ -70,7 +70,7 @@ const Donation = () => {
 
                     </div>
 
-                    {donation.length > 4 && <button onClick={() => setIsShow(!isShow)} className="px-5 block mx-auto bg-[#009444] mt-5 p-3 rounded-xl text-white font-bold text-xl pb-4 text-center">
+                    {donation.length > 4 && <button onClick={() => setIsShow(!isShow)} className="px-5 block mx-auto bg-[#009444] mt-5 p-1 lg:p-3 rounded-xl text-white font-bold text-base md:text-lg lg:text-xl lg:pb-4 text-center">
                         {isShow ? 'See Less': "See All"}
                     </button>}
 

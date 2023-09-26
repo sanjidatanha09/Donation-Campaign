@@ -2,12 +2,12 @@
 
 const Banner = () => {
     return (
-        <div className="h-[60vh] ">
-            <div class="flex  justify-center items-center flex-col h-[60vh] image-full shdow-xl bg-base-100 rounded-2xl ">
+        <div className="md:h-[60vh] lg:h-[60vh] ">
+            <div class="flex  justify-center items-center flex-col md:h-[60vh] lg:h-[60vh] image-full shdow-xl bg-base-100 rounded-2xl ">
                 <div 
                     class="w-full bg-[url('/Resources/bg_banner.png')] bg-cover bg-center rounded-2xl">
-                    <div class="w-full h-[60vh] text-center bg-white opacity-90 backdrop-brightness-100  rounded-2xl">
-                        <div className="pt-[200px] mb-[40px]">
+                    <div class="w-full h-[50vh] md:h-[60vh] lg:h-[60vh] text-center bg-white opacity-90 backdrop-brightness-100  rounded-2xl">
+                        <div className="pt-[140px] md:pt-[200px] lg:pt-[200px] mb-[40px]">
                             <span class="text-xl md:text-2xl lg:text-5xl w-1/2 text-center font-bold">I Grow By Helping People In Need</span>
                         </div>
 

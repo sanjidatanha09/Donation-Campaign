@@ -32,18 +32,11 @@ const Card3 = ({phone}) => {
         }
     }
 
-    // const handleAddToDonation = () =>{
-
-    //     swal("Good job!", "Donation Added Succesfully!", "success");
-
-    //     savaData(phone)
-    //     console.log("hello")
-
-    // }
+    
 
     return (
         <div >
-            <div className="relative flex h-[400px] lg:h-[600px] flex-col rounded-xl  bg-white bg-clip-border text-gray-700 shadow-md bg-black m-2 md:m-2 lg:m-0">
+            <div className="relative flex  h-[400px] lg:h-[600px] flex-col rounded-xl  bg-white bg-clip-border text-gray-700 shadow-md bg-black m-2 md:m-2 lg:m-0">
                 <div className="relative h-[600px]  m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700  ">
                     <img className='w-full h-full rounded-xl ' src={image} />
                     <div className='rounded-b-xl'>
@@ -67,10 +60,10 @@ const Card3 = ({phone}) => {
             </div>
 
             <div className="p-6 border-5 border-green-400">
-                <h4 className="block font-sans text-5xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                <h4 className="block font-sans text-xl md:text-3xl lg:text-5xl font-medium md:font-semibold lg:font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                     {card_description}
                 </h4>
-                <p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased">{Category_description}
+                <p className="mt-3 block font-sans text-sm md:text-lg lg:text-xl font-normal leading-relaxed text-gray-700 antialiased">{Category_description}
 
                 </p>
             </div>

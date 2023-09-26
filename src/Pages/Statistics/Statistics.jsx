@@ -26,24 +26,24 @@ const Statistics = ({ phone }) => {
 
 
     return (
-        <div className=" w-[800px] mx-auto border-red-500 border-5 h-[50vh]">
-            <div className='lg:ml-10'>
+        <div className="w-[280px] md:w-[400-px] lg:w-[800px] mx-auto h-[50vh] ">
+            <div className='lg:ml-64'>
 
-                <PieChart width={730} height={400}>
+                <PieChart width={310} height={400}>
                     <Pie data={data01} dataKey="value" nameKey="name" cx="50%" cy="50%" fill="#8884d8" />
                     {/* <Pie data={data02} dataKey="value" nameKey="name" innerRadius={60} outerRadius={80} fill="#82ca9d" label /> */}
                 </PieChart>
             </div>
 
 
-            <div className='flex justify-center items-center py-5 text-lg font-bold '>
-                <h1 className='pr-4'>Your Donation
-                    <span><input type="text" className='bg-red-400 mx-2 w-[150px]' />
+            <div className='lg:flex justify-center items-center lg:py-5 text-lg font-bold pl-14'>
+                <h1 className='lg:pr-24 mb-5 lg:mb-0 '>Your Donation
+                    <span><input type="text" className='bg-red-400 mx-2 w-[70px] lg:w-[150px]' />
                     </span>
                 </h1>
                 <h1>Total Donation
 
-                    <span><input type="text" className='bg-green-400 mx-2 w-[150px]' />
+                    <span><input type="text" className='bg-green-400 mx-2 w-[70px] lg:w-[150px]' />
                     </span>
                 </h1>
 
