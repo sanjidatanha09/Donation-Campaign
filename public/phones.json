@@ -4,100 +4,131 @@
     "image": "/public/Resources/Health.png",
     "card_title": "Health",
     "card_description": "Clean water for children",
-    "bg_color": "#F87147",
-    "text_color": "#F87147",
-    "Category_description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "category_price":"280"
-
+    "bg_color": "rgba(0, 82, 255, 0.15)",
+    "text_color": "#0052FF",
+    "btn_color": "rgba(0, 82, 255, 0.20)",
+    "Category_description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork.",
+    "category_price": 280
   },
   {
     "id": "2",
     "image": "/public/Resources/Education.png",
     "card_title": "Education",
     "card_description": "Good education",
-    "bg_color": "",
-    "text_color": "",
-    "Category_description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "category_price": "290"
+    "bg_color": "rgba(255, 68, 74, 0.15)",
+    "text_color": "#FF444A",
+    "btn_color": "rgba(255, 68, 74, 0.20)",
+    "Category_description": "Education is the development of and improvement in learning ( knowledge and skills) to bring out or develop potential. There are many definitions of education but people often confuse education with schooling. Ideally education and schooling are seamlessly interlinked, but a lot of schools and teachers operate in a style that we can't really call education as they 'pour' learning into the pupils. ",
+    "category_price": 390
   },
   {
     "id": "3",
     "image": "/public/Resources/Clothing.png",
     "card_title": "Clothing",
     "card_description": "Used Clothing Drive",
-    "bg_color": "",
-    "text_color": ""
+    "bg_color": "rgba(121, 194, 63, 0.15)",
+    "text_color": "#79C23F",
+    "btn_color":"rgba(121, 194, 63, 0.20)",
+    "Category_description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive. Used clothing drives divert waste from landfills by giving people an alternative disposal method for unwanted, ripped or stained items. Only 15% of textiles are recycled.[1] Nearly 95% of textiles worn or torn can be recycled.[",
+    "category_price": 380
   },
   {
     "id": "4",
     "image": "/public/Resources/Food.png",
     "card_title": "Food",
     "card_description": "Better Food for Everyone",
-    "bg_color": "",
-    "text_color": ""
+    "bg_color": "rgba(248, 113, 71, 0.1)",
+    "text_color": "#F87147",
+    "btn_color":"rgba(248, 113, 71, 0.20)",
+    "Category_description": "The future of the world depends on good food. It’s that simple.Good food keeps us healthy. It helps us reach our potential. It strengthens our communities, powers our economies, and protects our planet.But not everyone gets good food every day – and the way we produce and market food is harming our environment. This has to change.",
+    "category_price": 250
   },
   {
     "id": "5",
-    "image": "",
+    "image": "/public/Resources/toys.jpg",
     "card_title": "Toys",
-    "card_description": "",
-    "bg_color": "",
-    "text_color": ""
+    "card_description": "Best Toys For Children",
+    "bg_color": "rgba(248, 113, 71, 0.1)",
+    "text_color": "#F87147",
+    "btn_color": "rgba(248, 113, 71, 0.20)",
+    "Category_description": "For babies and toddlers, you can consider buying a soft toy or a plush rattle. When they grow a little older, you can buy them an activity chair which helps them sit upright or teaches them to walk. Also, building blocks and play mats with toys and stuffed animals attached to them can be a good investment.",
+    "category_price": 240
   },
   {
     "id": "6",
-    "image": "",
+    "image": "/public/Resources/car.jpg",
     "card_title": "Vehicle",
-    "card_description": "",
-    "bg_color": "",
-    "text_color": ""
+    "card_description": "Easy Drive with Car",
+    "bg_color": "rgba(121, 194, 63, 0.15)",
+    "text_color": "#79C23F",
+    "btn_color": "rgba(121, 194, 63, 0.20)",
+    "Category_description": "A vehicle is a machine such as a car, bus, or truck which has an engine and is used to carry people from place to place.he vehicle would not have the capacity to make the journey on one tank of fuel.a vehicle which was somewhere between a tractor and a truck.",
+    "category_price": 180
   },
   {
     "id": "7",
-    "image": "",
-    "card_title": "Education",
-    "card_description": "",
-    "bg_color": "",
-    "text_color": ""
+    "image": "/public/Resources/bags.webp",
+    "card_title": "Bags",
+    "card_description": "Black Beauty Bags",
+    "bg_color": "rgba(255, 68, 74, 0.15)",
+    "text_color": "#FF444A",
+    "btn_color": "rgba(255, 68, 74, 0.20)",
+    "Category_description": "A bag is a kind of soft container. It can hold or carry things. It may be made from cloth, leather, plastic, or paper.It's a small bag -- circular, oval, rectangular, or square. The clutch is held in one hand and rarely comes with a strap. Clutches are usually made from good.Easy carry .",
+    "category_price": 310
   },
   {
     "id": "8",
-    "image": "",
-    "card_title": "Education",
-    "card_description": "",
-    "bg_color": "",
-    "text_color": ""
+    "image": "/public/Resources/book.jpeg",
+    "card_title": "Book",
+    "card_description": "Good Knowledge ",
+    "bg_color": "rgba(0, 82, 255, 0.15)",
+    "text_color": "#0052FF",
+    "btn_color": "rgba(0, 82, 255, 0.20)",
+    "Category_description": "A book description is a short summary of a book's story or content that is designed to “hook” a reader and lead to a sale. Typically, the book's description conveys important information about its topic or focus (in nonfiction) or the plot and tone (for a novel or any other piece of fiction).",
+    "category_price": 120
   },
   {
     "id": "9",
-    "image": "",
-    "card_title": "Education",
-    "card_description": "",
-    "bg_color": "",
-    "text_color": ""
+    "image": "/public/Resources/coffee.webp",
+    "card_title": "Coffee",
+    "card_description": "Drink Healthy Coffee",
+    "bg_color": "rgba(0, 82, 255, 0.15)",
+    "text_color": "#0052FF",
+    "btn_color": "rgba(0, 82, 255, 0.20)",
+    "Category_description": "Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant. Coffee is one of the three most popular beverages in the world (alongside water and tea), and it is one of the most profitable international commodities.",
+    "category_price": 230
   },
   {
     "id": "10",
-    "image": "",
-    "card_title": "Education",
-    "card_description": "",
-    "bg_color": "",
-    "text_color": ""
+    "image": "/public/Resources/frutis.jpg",
+    "card_title": "Fruits",
+    "card_description": "Fresh Fruits Healthy Life",
+    "bg_color": "rgba(255, 68, 74, 0.15)",
+    "text_color": "#FF444A",
+    "btn_color": "rgba(255, 68, 74, 0.20)",
+    "Category_description": "What is a fruit? In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically fruits.",
+    "category_price": 300
   },
   {
     "id": "11",
-    "image": "",
-    "card_title": "Education",
-    "card_description": "",
-    "bg_color": "",
-    "text_color": ""
+    "image": "/public/Resources/hygiene.jpeg",
+    "card_title": "Hygiene",
+    "card_description": "Hygiene is our priority ",
+    "bg_color": "rgba(121, 194, 63, 0.15)",
+    "text_color": "#79C23F",
+    "btn_color": "rgba(121, 194, 63, 0.20)",
+    "Category_description": "Good hygiene is critical for preventing the spread of infectious diseases and helping children lead long, healthy lives. It also prevents them from missing school, resulting in better learning outcomes. For families, good hygiene means avoiding illness and spending less on health care.",
+    "category_price": 200
   },
   {
     "id": "12",
-    "image": "",
-    "card_title": "Education",
-    "card_description": "",
-    "bg_color": "",
-    "text_color": ""
+    "image": "/public/Resources/shoes.jpg",
+    "card_title": "Shoes",
+    "card_description": "Wearing Clean Shoes",
+    "bg_color": "rgba(248, 113, 71, 0.1)",
+    "text_color": "#F87147",
+    "btn_color": "rgba(248, 113, 71, 0.20)",
+    "Category_description": "A shoe is an item of footwear intended to protect and comfort the human foot. Though the human foot can adapt to varied terrains and climate conditions, it is vulnerable, and shoes provide protection. Form was originally tied to function but over time shoes also became fashion items.",
+    "category_price": 190
   }
 ]
