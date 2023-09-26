@@ -9,7 +9,7 @@ const DonationCard = ({phone}) => {
         <div>
 
             <Link to={`/phones/${id}`}>
-                <div className="card card-compact  bg-base-100 shadow-xl h-80">
+                <div className="card card-compact  bg-base-100  h-80 m-2 md:m-2 lg:m-0 shadow-xl">
                     <figure><img  className='w-full h-52' src={image} /></figure>
                     <div style={{
                         color: text_color,

@@ -5,15 +5,15 @@ const Banner = () => {
         <div className="h-[60vh] ">
             <div class="flex  justify-center items-center flex-col h-[60vh] image-full shdow-xl bg-base-100 rounded-2xl ">
                 <div 
-                    class="w-full bg-[url('https://placekitten.com/1400')] bg-cover bg-center rounded-2xl">
-                    <div class="w-full h-[60vh] text-center backdrop-blur-xl backdrop-brightness-100  rounded-2xl">
+                    class="w-full bg-[url('/Resources/bg_banner.png')] bg-cover bg-center rounded-2xl">
+                    <div class="w-full h-[60vh] text-center bg-white opacity-90 backdrop-brightness-100  rounded-2xl">
                         <div className="pt-[200px] mb-[40px]">
-                            <span class=" text-5xl w-1/2 text-center ">I Grow By Helping People In Need</span>
+                            <span class="text-xl md:text-2xl lg:text-5xl w-1/2 text-center font-bold">I Grow By Helping People In Need</span>
                         </div>
 
                         <div className="flex justify-center items-center">
-                            <input type="text" placeholder="Search here" className="input input-bordered w-[490px] p-3 rounded-s-xl" />
-                            <input className="w-[120px] p-2 bg-[#FF444A] text-white font-bold text-2xl rounded-e-xl " type="submit" value="Submit" />
+                            <input type="text" placeholder="Search here" className="input input-bordered  md:w-[275px]  lg:w-[490px]  p-2 md:p-3 lg:p-3 rounded-s-xl" />
+                            <input className=" md:w-[100px] lg:w-[120px] p-2 bg-[#FF444A] text-white lg:font-bold text-base md:text-2xl lg:text-2xl rounded-e-xl " type="submit" value="Submit" />
 
                         </div>
 

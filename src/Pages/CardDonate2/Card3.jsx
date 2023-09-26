@@ -43,16 +43,23 @@ const Card3 = ({phone}) => {
 
     return (
         <div >
-            <div className="relative flex w-full h-[600px] flex-col rounded-xl  bg-white bg-clip-border text-gray-700 shadow-md bg-black bottom-0 opacity-70 ">
+            <div className="relative flex h-[400px] lg:h-[600px] flex-col rounded-xl  bg-white bg-clip-border text-gray-700 shadow-md bg-black m-2 md:m-2 lg:m-0">
                 <div className="relative h-[600px]  m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700  ">
                     <img className='w-full h-full rounded-xl ' src={image} />
-                    <div className='absolute bottom-10 left-10'>
-                        <button onClick={handleAddToDonation}
-                        style={{
-                            background :text_color
-                            
-                        }}
-                         className="btn  text-white rounded-md w-[180px] p-3 pb-4 text-xl text-center font-bold">Donate ${category_price}.00</button>
+                    <div className='rounded-b-xl'>
+                        <div className='p-96 bg-black opacity-70 absolute  bottom-0 border-blue-400 border-5 top-3/4 left-0 right-0 rounded-b-xl '>
+
+                        </div>
+                        <div className='absolute bottom-4 md:bottom-5 lg:bottom-10 left-4 md:left-5 lg:left-10 '>
+                            <button onClick={handleAddToDonation}
+                                style={{
+                                    background: text_color
+
+                                }}
+                                className="btn  text-white rounded-md md:w-[140px] lg:w-[180px] p-3 pb-4 text-base lg:text-xl text-center font-medium lg:font-bold">Donate ${category_price}.00</button>
+
+                        </div>
+                        
                     </div>
                 </div>
                
