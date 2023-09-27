@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "/public/Resources/Health.png",
+    "image": "/Resources/Health.png",
     "card_title": "Health",
     "card_description": "Clean water for children",
     "bg_color": "rgba(0, 82, 255, 0.15)",
@@ -12,7 +12,7 @@
   },
   {
     "id": "2",
-    "image": "/public/Resources/Education.png",
+    "image": "/Resources/Education.png",
     "card_title": "Education",
     "card_description": "Good education",
     "bg_color": "rgba(255, 68, 74, 0.15)",
@@ -23,7 +23,7 @@
   },
   {
     "id": "3",
-    "image": "/public/Resources/Clothing.png",
+    "image": "/Resources/Clothing.png",
     "card_title": "Clothing",
     "card_description": "Used Clothing Drive",
     "bg_color": "rgba(121, 194, 63, 0.15)",
@@ -34,7 +34,7 @@
   },
   {
     "id": "4",
-    "image": "/public/Resources/Food.png",
+    "image": "/Resources/Food.png",
     "card_title": "Food",
     "card_description": "Better Food for Everyone",
     "bg_color": "rgba(248, 113, 71, 0.1)",
@@ -45,7 +45,7 @@
   },
   {
     "id": "5",
-    "image": "/public/Resources/Food3.webp",
+    "image": "/Resources/Food3.webp",
     "card_title": "Food",
     "card_description": "Good Food Good Life",
     "bg_color": "rgba(248, 113, 71, 0.1)",
@@ -56,7 +56,7 @@
   },
   {
     "id": "6",
-    "image": "/public/Resources/Clothing_2_shoes.jpg",
+    "image": "/Resources/Clothing_2_shoes.jpg",
     "card_title": "Clothing",
     "card_description": "Wearing Clean Shoes",
     "bg_color": "rgba(121, 194, 63, 0.15)",
@@ -67,7 +67,7 @@
   },
   {
     "id": "7",
-    "image": "/public/Resources/Education_1.jpeg",
+    "image": "/Resources/Education_1.jpeg",
     "card_title": "Education",
     "card_description": "Progressive Education",
     "bg_color": "rgba(255, 68, 74, 0.15)",
@@ -78,7 +78,7 @@
   },
   {
     "id": "8",
-    "image": "/public/Resources/Health_1_hygiene.jpeg",
+    "image": "/Resources/Health_1_hygiene.jpeg",
     "card_title": "Health",
     "card_description": "Hygiene is our priority",
     "bg_color": "rgba(0, 82, 255, 0.15)",
@@ -89,7 +89,7 @@
   },
   {
     "id": "9",
-    "image": "/public/Resources/Health_1_medicine.jpg",
+    "image": "/Resources/Health_1_medicine.jpg",
     "card_title": "Health",
     "card_description": "Medicine For All",
     "bg_color": "rgba(0, 82, 255, 0.15)",
@@ -100,7 +100,7 @@
   },
   {
     "id": "10",
-    "image": "/public/Resources/Education_2.jpg",
+    "image": "/Resources/Education_2.jpg",
     "card_title": "Education",
     "card_description": "Good Knowledge",
     "bg_color": "rgba(255, 68, 74, 0.15)",
@@ -111,7 +111,7 @@
   },
   {
     "id": "11",
-    "image": "/public/Resources/Clothing_3.jpg",
+    "image": "/Resources/Clothing_3.jpg",
     "card_title": "Clothing",
     "card_description": "Net And Clean Cloth ",
     "bg_color": "rgba(121, 194, 63, 0.15)",
@@ -122,7 +122,7 @@
   },
   {
     "id": "12",
-    "image": "/public/Resources/Food_1.jpg",
+    "image": "/Resources/Food_1.jpg",
     "card_title": "Food",
     "card_description": "Fresh Fruits Healthy Life",
     "bg_color": "rgba(248, 113, 71, 0.1)",
