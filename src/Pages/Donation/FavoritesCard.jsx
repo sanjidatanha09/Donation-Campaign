@@ -8,7 +8,7 @@ const FavoritesCard = ({ phone }) => {
             <div style={{
                 background: bg_color
             }}
-                className="card card-side flex  bg-base-100 shadow-xl  lg:h-52 md:mx-24 rounded-xl">
+                className="card card-side flex  bg-base-100 shadow-xl  lg:h-52 md:mx-24 lg:mx-0 rounded-xl">
                 <div className='w-[50%] lg:h-52'>
                     <figure><img className='border-5 w-full h-40 md:h-52 lg:h-52 rounded-s-xl' src={image} /></figure>
 

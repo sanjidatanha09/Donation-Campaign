@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import Card3 from './Card3';
 
 const CardDonate2 = () => {
-    const [phone,setPhone] =useState()
+    const [phone,setPhone] =useState([])
     
 
     const {id} = useParams()

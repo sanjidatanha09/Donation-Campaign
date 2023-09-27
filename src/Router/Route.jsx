@@ -16,7 +16,7 @@ const myCreatedRoute =  createBrowserRouter([
             {
                 path:"/",
                 element:<Home></Home>,
-                loader: () => fetch('./phones.json')
+                loader: () => fetch('/phones.json')
             },
             {
                 path: "/donation",
@@ -24,12 +24,13 @@ const myCreatedRoute =  createBrowserRouter([
             },
             {
                 path: "/statistics",
-                element: <Statistics></Statistics>
+                element: <Statistics></Statistics>,
+                loader: () => fetch('/phones.json')
             },
             {
                 path: "/phones/:id",
                 element:<CardDonate2></CardDonate2>,
-                loader:()=>fetch('./phones.json')
+                loader:()=>fetch('/phones.json')
             }
         ]
     }

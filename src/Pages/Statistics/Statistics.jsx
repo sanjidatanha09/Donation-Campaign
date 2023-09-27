@@ -1,57 +1,81 @@
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import React, { PureComponent } from 'react';
+import { useLoaderData } from 'react-router-dom';
+import { PieChart,Tooltip,Legend, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
-const Statistics = ({ phone }) => {
-    // const { id, card_title, card_description, bg_color, text_color, image, Category_description, category_price, btn_color } = phone || {}
+const Statistics = () => {
+    const fullCampaignes =useLoaderData()
+
+    const totalDonate = fullCampaignes;
+    const myDonate = JSON.parse(localStorage.getItem("donation"));
+    console.log(myDonate);
+    let Remaining = 0;
+    let YourDonate;
 
 
-    const data01 = [
-        { name: 'Group A', value: 400 },
-        { name: 'Group B', value: 300 },
-        // { name: 'Group C', value: 300 },
-        // { name: 'Group D', value: 200 },
+    if (myDonate) {
+        YourDonate = myDonate.length;
+        Remaining = totalDonate.length - YourDonate;
+
+    }
+    else {
+        Remaining = totalDonate.length;
+    }
+
+
+    const data = [
+        { name: 'Total Donation', value: Remaining },
+        { name: 'Your Donation', value: YourDonate },
+
     ];
-    const data02 = [
-        { name: 'A1', value: 100 },
-        { name: 'A2', value: 300 },
-        { name: 'B1', value: 100 },
-        { name: 'B2', value: 80 },
-        { name: 'B3', value: 40 },
-        { name: 'B4', value: 30 },
-        { name: 'B5', value: 50 },
-        { name: 'C1', value: 100 },
-        { name: 'C2', value: 200 },
-        { name: 'D1', value: 150 },
-        { name: 'D2', value: 50 },
-    ];
+
+    const COLORS = ['#0088FE', '#00C49F'];
+
+    const RADIAN = Math.PI / 180;
+    const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+        const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+        const x = cx + radius * Math.cos(-midAngle * RADIAN);
+        const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
+        return (
+            <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
+                {`${(percent * 100).toFixed(0)}%`}
+            </text>
+        );
+    };
+
 
 
     return (
-        <div className="w-[280px] md:w-[400-px] lg:w-[800px] mx-auto h-[50vh] ">
-            <div className='lg:ml-64'>
-
-                <PieChart width={310} height={400}>
-                    <Pie data={data01} dataKey="value" nameKey="name" cx="50%" cy="50%" fill="#8884d8" />
-                    {/* <Pie data={data02} dataKey="value" nameKey="name" innerRadius={60} outerRadius={80} fill="#82ca9d" label /> */}
-                </PieChart>
-            </div>
+        <div className="w-[400px] md:w-[500px] lg:w-[800px] mx-auto h-[50vh] pl-20 md:pl-32 lg:pl-80">
 
 
-            <div className='lg:flex justify-center items-center lg:py-5 text-lg font-bold pl-14'>
-                <h1 className='lg:pr-24 mb-5 lg:mb-0 '>Your Donation
-                    <span><input type="text" className='bg-red-400 mx-2 w-[70px] lg:w-[150px]' />
-                    </span>
-                </h1>
-                <h1>Total Donation
+            <PieChart width={200} height={300}>
+                <Pie
+                    data={data}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    label={renderCustomizedLabel}
+                    outerRadius={80}
+                    fill="#8884d8"
+                    dataKey="value"
+                >
+                    {data.map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    ))}
+                </Pie>
+                <Tooltip />
+                <Legend />
+            </PieChart>
 
-                    <span><input type="text" className='bg-green-400 mx-2 w-[70px] lg:w-[150px]' />
-                    </span>
-                </h1>
 
-            </div>
-            
+
+
         </div>
-       
+
     );
 };
 
 export default Statistics;
+
+

@@ -4,8 +4,7 @@ import DonationCard from "./donationCard";
 
 const Phones = ({ phones }) => {
     const getDataHooks =useGetphone()
-    console.log(getDataHooks)
-    console.log(phones);
+
 
     return (
         <div className="py-10">

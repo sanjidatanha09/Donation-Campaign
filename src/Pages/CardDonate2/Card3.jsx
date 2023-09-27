@@ -1,6 +1,6 @@
 import React from 'react';
 import swal from 'sweetalert';
-import { savaData } from '../../utility/utility';
+
 
 const Card3 = ({phone}) => {
     const { id, card_title, card_description, bg_color, text_color, image, Category_description, category_price, } = phone || {}
@@ -14,7 +14,7 @@ const Card3 = ({phone}) => {
             swal("Good job!", "Donation Added Succesfully!", "success");
         }
         else{
-            const isExits = donationItem.find(phone=>phone.id ==id)
+            const isExits = donationItem.find(phone=>phone.id ===id)
 
             if(!isExits){
 

@@ -8,7 +8,7 @@ const Donation = () => {
     const [noFound, setNofound] = useState(false);
     const [isShow, setIsShow] = useState(false);
 
-    // const [totalPrice, setTotalPrice] = useState(0)
+    
 
     useEffect(() => {
         const donationItem = JSON.parse(localStorage.getItem('donation'));
@@ -17,9 +17,6 @@ const Donation = () => {
         if (donationItem) {
             setDonation(donationItem);
 
-            // const total = donationItem.reduce((preValue, currentItem) => preValue + currentItem.category_price, 0)
-            // console.log(total);
-            // setTotalPrice(total)
 
         }
         else {
