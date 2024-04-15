@@ -1,34 +1,24 @@
 import React, { useEffect, useState } from "react";
 import FavoritesCard from "./FavoritesCard";
 
-
-
 const Donation = () => {
     const [donation, setDonation] = useState([]);
-    const [noFound, setNofound] = useState(false);
+    const [noFound, setNoFound] = useState(false);
     const [isShow, setIsShow] = useState(false);
-
-    
-
     useEffect(() => {
         const donationItem = JSON.parse(localStorage.getItem('donation'));
-
-
         if (donationItem) {
             setDonation(donationItem);
-
-
         }
         else {
-            setNofound("No Data Found");
+            setNoFound("No Data Found");
         }
-
     }, []);
     console.log(donation);
     const handleRemove = () => {
         localStorage.clear()
         setDonation([])
-        setNofound('No Data Found');
+        setNoFound('No Data Found');
     }
 
     return (
@@ -39,7 +29,7 @@ const Donation = () => {
                     {donation.length > 0 && (
                         <div>
                             <button
-                                    onClick={handleRemove} className="lg:px-5 mb-6 bg-[#009444] mt-4 p-3 lg:p-3 rounded-xl text-white font-bold text-xs  md:text-base lg:text-xl lg:pb-4 text-center block mx-auto">
+                                onClick={handleRemove} className="lg:px-5 mb-6 bg-[#009444] mt-4 p-3 lg:p-3 rounded-xl text-white font-bold text-xs  md:text-base lg:text-xl lg:pb-4 text-center block mx-auto">
 
                                 Deleted All donation
 
@@ -50,7 +40,7 @@ const Donation = () => {
 
 
 
-                        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 ">
+                    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 ">
                         {
 
 
@@ -68,7 +58,7 @@ const Donation = () => {
                     </div>
 
                     {donation.length > 4 && <button onClick={() => setIsShow(!isShow)} className="px-5 block mx-auto bg-[#009444] mt-5 p-1 lg:p-3 rounded-xl text-white font-bold text-base md:text-lg lg:text-xl lg:pb-4 text-center">
-                        {isShow ? 'See Less': "See All"}
+                        {isShow ? 'See Less' : "See All"}
                     </button>}
 
 

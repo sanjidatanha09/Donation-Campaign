@@ -13,6 +13,7 @@ const CardDonate2 = () => {
     
 
     useEffect(()=>{
+
         const findPhone = phones?.find((phone) => phone.id === id);
 
         setPhone(findPhone);

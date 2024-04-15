@@ -1,7 +1,7 @@
 import React from 'react';
 import swal from 'sweetalert';
 
-
+//details card donation
 const Card3 = ({phone}) => {
     const { id, card_title, card_description, bg_color, text_color, image, Category_description, category_price, } = phone || {}
 
@@ -26,13 +26,8 @@ const Card3 = ({phone}) => {
             else{
                 swal("Error!", "Already Added !", "error");
             }
-
-
-
         }
-    }
-
-    
+    }   
 
     return (
         <div >
@@ -49,7 +44,9 @@ const Card3 = ({phone}) => {
                                     background: text_color
 
                                 }}
-                                className="btn  text-white rounded-md md:w-[140px] lg:w-[180px] p-3 pb-4 text-base lg:text-xl text-center font-medium lg:font-bold">Donate ${category_price}.00</button>
+                                className="btn  text-white rounded-md md:w-[140px] lg:w-[180px] p-3 pb-4 text-base lg:text-xl text-center font-medium lg:font-bold">Donate ${category_price}.00
+                                
+                                </button>
 
                         </div>
                         
@@ -61,7 +58,7 @@ const Card3 = ({phone}) => {
 
             <div className="p-6 border-5 border-green-400">
                 <h4 className="block font-sans text-xl md:text-3xl lg:text-5xl font-medium md:font-semibold lg:font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                    {card_description}
+                    {card_description}sss
                 </h4>
                 <p className="mt-3 block font-sans text-sm md:text-lg lg:text-xl font-normal leading-relaxed text-gray-700 antialiased">{Category_description}
 

@@ -3,7 +3,7 @@ import DonationCard from "./donationCard";
 
 
 const Phones = ({ phones }) => {
-    const getDataHooks =useGetphone()
+    // const getDataHooks =useGetphone()
 
 
     return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+//home page card donation
+
 const DonationCard = ({phone}) => {
     const { id, card_title, card_description, bg_color, text_color, image, btn_color } = phone || {}
 
@@ -27,7 +29,7 @@ const DonationCard = ({phone}) => {
                 </div>
             </Link>
             
-                
+                 
         
         </div>
     );

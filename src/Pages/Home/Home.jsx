@@ -23,10 +23,7 @@ const Home = () => {
 
         setFullCampaignes(filtercampaignes);
         console.log()
-
-
     };
-
 
     return (
         <div>
