@@ -5,6 +5,7 @@ const Donation = () => {
     const [donation, setDonation] = useState([]);
     const [noFound, setNoFound] = useState(false);
     const [isShow, setIsShow] = useState(false);
+    const [isShows, setIsShows] = useState(false);
     useEffect(() => {
         const donationItem = JSON.parse(localStorage.getItem('donation'));
         if (donationItem) {
