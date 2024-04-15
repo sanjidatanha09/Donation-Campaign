@@ -4,16 +4,13 @@ const FavoritesCard = ({ phone }) => {
     const { id, card_title, card_description, bg_color, text_color, image, Category_description, category_price, btn_color } = phone || {}
     return (
         <div className='m-1 md:m-1 lg:m-0'>
-
             <div style={{
                 background: bg_color
             }}
                 className="card card-side flex  bg-base-100 shadow-xl  lg:h-52 md:mx-24 lg:mx-0 rounded-xl">
                 <div className='w-[50%] lg:h-52'>
                     <figure><img className='border-5 w-full h-40 md:h-52 lg:h-52 rounded-s-xl' src={image} /></figure>
-
                 </div>
-
                 <div className="card-body pl-5 pt-6 w-[50%]">
                     <h2 style={{
                         color: text_color,
@@ -37,21 +34,7 @@ const FavoritesCard = ({ phone }) => {
                     </div>
                 </div>
             </div>
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
     );
 };
 
